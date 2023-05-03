@@ -1,0 +1,11 @@
+#!/command/with-contenv bashio
+# ==============================================================================
+# Home Assistant Add-on: Red Reactor Monitor
+# Runs the Red Reactor service
+# ==============================================================================
+
+bashio::log.info "Starting the Red Reactor Monitor..."
+
+# Run Red Reactor
+cd /var/redreactor/
+exec python ./redreactor.py --config /data/options.json --database /data/database.db --log /data/redreactor.log
