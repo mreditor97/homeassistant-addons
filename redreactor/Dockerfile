@@ -1,11 +1,11 @@
-ARG BUILD_FROM
+ARG BUILD_FROM==ghcr.io/home-assistant/aarch64-base-python:3.10-alpine3.17
 FROM $BUILD_FROM
 
 # Set Shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 #Setup Base
-ARG BUILD_ARCH=amd64
+ARG BUILD_ARCH=aarch64
 ARG HA_CLI_VERSION="4.23.0"
 
 RUN \
