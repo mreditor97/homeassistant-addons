@@ -16,7 +16,7 @@ RUN \
     apk add --no-cache --virtual .build-dependencies \
         gcc=12.2.1_git20220924-r4 \
         musl-dev=1.2.3-r4 \
-        linux-headers=6.3-r0 \
+        linux-headers=5.19.5-r0 \
         git=2.38.5-r0 \
     \
     && git clone --branch master --single-branch --depth 1 \
