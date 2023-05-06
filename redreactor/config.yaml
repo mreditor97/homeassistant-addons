@@ -14,9 +14,8 @@ privileged:
   - SYS_ADMIN
 devices:
   - /dev/i2c-1
-device_tree: true
-hassio_api: true # Required for `ha host reboot / shutdown`
-hassio_role: manager # Required for `ha host reboot / shutdown`
+hassio_api: true
+hassio_role: manager
 services:
   - mqtt:want
 options:
