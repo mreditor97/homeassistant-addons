@@ -18,7 +18,6 @@ RUN \
         musl-dev=1.2.4-r0 \
         linux-headers=6.3-r0 \
         git=2.38.5-r0 \
-        py3-pip=23.1.2-r0 \
     \
     && git clone --branch master --single-branch --depth 1 \
         https://github.com/mreditor97/redreactor /tmp/redreactor \
@@ -43,5 +42,5 @@ COPY rootfs /
 # Ensure correct permissions
 RUN \
     chmod a+x /var/redreactor/redreactor.py \
-    && chmod a+x etc/s6-overlay/s6-rc.d/redreactor/run \
-    && chmod a+x etc/s6-overlay/s6-rc.d/redreactor/finish
+    && chmod a+x /etc/s6-overlay/s6-rc.d/redreactor/run \
+    && chmod a+x /etc/s6-overlay/s6-rc.d/redreactor/finish
