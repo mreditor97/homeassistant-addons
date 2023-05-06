@@ -10,10 +10,11 @@ ARG HA_CLI_VERSION="4.23.0"
 
 RUN \
     apk add --no-cache --virtual .build-dependencies \
-        gcc \
-        musl-dev \
-        linux-headers \
-        git \
+        gcc=12.2.1_git20220924-r10 \
+        musl-dev=1.2.4-r0 \
+        linux-headers=6.3-r0 \
+        git=2.38.5-r0 \
+        py3-pip=23.1.2-r0 \
     \
     && git clone --branch master --single-branch --depth 1 \
         https://github.com/mreditor97/redreactor /tmp/redreactor \
@@ -21,7 +22,6 @@ RUN \
     && mkdir -p /var/redreactor \
     && mv /tmp/redreactor/src/* /var/redreactor/ \
     \
-    && pip3 install --no-cache-dir --upgrade pip \
     && pip3 install --no-cache-dir -r /var/redreactor/requirements.txt \
     \
     && curl -L -s -o /usr/bin/ha \
