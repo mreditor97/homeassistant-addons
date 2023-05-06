@@ -14,8 +14,8 @@ ARG HA_CLI_VERSION="4.23.0"
 
 RUN \
     apk add --no-cache --virtual .build-dependencies \
-        gcc=12.2.1_git20220924-r10 \
-        musl-dev=1.2.4-r0 \
+        gcc=12.2.1_git20220924-r4 \
+        musl-dev=1.2.3-r4 \
         linux-headers=6.3-r0 \
         git=2.38.5-r0 \
     \
