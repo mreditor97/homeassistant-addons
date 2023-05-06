@@ -1,5 +1,6 @@
 ARG BUILD_FROM==ghcr.io/home-assistant/aarch64-base-python:3.10-alpine3.17
-FROM $BUILD_FROM
+# hadolint ignore=DL3006
+FROM ${BUILD_FROM}
 
 # Set Shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
