@@ -8,7 +8,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # Copy Python requirements file
 COPY requirements.txt /tmp/
 
-#Setup Base
+# Setup Base
 ARG BUILD_ARCH=aarch64
 ARG HA_CLI_VERSION="4.23.0"
 
