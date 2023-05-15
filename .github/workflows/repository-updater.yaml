@@ -6,9 +6,6 @@ on:
   repository_dispatch:
     types: ['update']
 
-concurrency:
-  group: queue
-
 jobs:
   workflows:
     name: Publish add-on update
