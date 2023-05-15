@@ -20,7 +20,7 @@ RUN \
         git=2.38.5-r0 \
     \
     && git clone --branch master --single-branch --depth 1 \
-        https://github.com/mreditor97/redreactor /tmp/redreactor \
+        https://github.com/MrEditor97/redreactor /tmp/redreactor \
     \
     && mkdir -p /var/redreactor \
     && mv /tmp/redreactor/src/* /var/redreactor/ \
