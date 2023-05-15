@@ -6,8 +6,12 @@ on:
   repository_dispatch:
     types: ['update']
 
+concurrency:
+  group: queue
+
 jobs:
   workflows:
+    name: Publish add-on update
     uses: hassio-addons/workflows/.github/workflows/repository-updater.yaml@main
     secrets:
       UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}

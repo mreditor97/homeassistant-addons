@@ -13,4 +13,5 @@ on:
 
 jobs:
   workflows:
+    name: Lint
     uses: hassio-addons/workflows/.github/workflows/repository-lint.yaml@main
