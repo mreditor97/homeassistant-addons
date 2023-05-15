@@ -64,6 +64,12 @@
       "matchManagers": ["pip_requirements"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
+    },
+    {
+      "groupName": "Docker",
+      "matchDatasources": ["repology"],
+      "matchPackagePatterns": ["^alpine_.*/docker.*$"],
+      "automerge": true
     }
   ]
 }
