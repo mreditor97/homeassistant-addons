@@ -4,7 +4,7 @@ Add-ons for Home Assistant. Allowing you to extend the functionality of your Hom
 
 ## Available Add-ons
 
-- **[Red Reactor](/redreactor/)**
+- **[Red Reactor](https://github.com/MrEditor97/addon-redreactor/)**
 
   Control your Red Reactor Battery backup hardware via MQTT
 
