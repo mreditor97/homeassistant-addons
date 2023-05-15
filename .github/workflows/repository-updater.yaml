@@ -4,7 +4,7 @@ name: Repository Updater
 # yamllint disable-line rule:truthy
 on:
   repository_dispatch:
-    types: ["update"]
+    types: ['update']
 
 jobs:
   workflows:
