@@ -67,7 +67,7 @@ LABEL \
     org.opencontainers.image.vendor="Home Assistant Add-ons" \
     org.opencontainers.image.authors="MrEditor97" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.url="https://github.com/MrEditor97/homeassistant-addons" \
+    org.opencontainers.image.url="https://github.com/mreditor97/homeassistant-addons" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
     org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/blob/master/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
