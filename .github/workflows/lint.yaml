@@ -1,5 +1,5 @@
 ---
-name: CI
+name: Lint
 
 # yamllint disable-line rule:truthy
 on:
@@ -13,4 +13,4 @@ on:
 
 jobs:
   workflows:
-    uses: hassio-addons/workflows/.github/workflows/addon-ci.yaml@main
+    uses: hassio-addons/workflows/.github/workflows/repository-lint.yaml@main
