@@ -1,0 +1,17 @@
+---
+name: CI
+
+# yamllint disable-line rule:truthy
+on:
+  push:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  workflow_dispatch:
+
+jobs:
+  workflows:
+    name: CI
+    uses: hassio-addons/workflows/.github/workflows/repository-lint.yaml@main
