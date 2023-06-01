@@ -1,6 +1,7 @@
 # MrEditor97's Home Assistant Add-on's Repository
 
-Add-ons for Home Assistant. Allowing you to extend the functionality of your Home Assistant setup, these can be installed and configured from within the Home Assistant frontend.
+Add-ons for Home Assistant. Allowing you to extend the functionality of your Home Assistant setup, these can be
+installed and configured from within the Home Assistant frontend.
 
 ## Available Add-ons
 {% for addon in addons %}
@@ -41,7 +42,7 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 
 {% for addon in addons %}
 
-[addon-{{ addon.target }}]: {{ addon.repo }}/tree/{{ addon.version }}
+[addon-{{ addon.target }}]: {{ addon.repo }}/tree/{{ addon.version | replace("v", "") }}
 [{{ addon.target }}-issue]: {{ addon.repo }}/issues
 [{{ addon.target }}-version-shield]: https://img.shields.io/badge/version-{{ addon.version }}-blue.svg
 
