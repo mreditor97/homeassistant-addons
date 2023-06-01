@@ -1,6 +1,7 @@
 # MrEditor97's Home Assistant Add-on's Repository
 
-Add-ons for Home Assistant. Allowing you to extend the functionality of your Home Assistant setup, these can be installed and configured from within the Home Assistant frontend.
+Add-ons for Home Assistant. Allowing you to extend the functionality of your Home Assistant setup, these can be
+installed and configured from within the Home Assistant frontend.
 
 ## Available Add-ons
 ### &#10003; [Red Reactor Battery Monitor][addon-redreactor]
@@ -36,7 +37,7 @@ on the correct GitHub repository matching the add-on.
 For a general repository issue or add-on ideas [open an issue here][issue]
 
 
-[addon-redreactor]: https://github.com/mreditor97/addon-redreactor/tree/v0.1.1
+[addon-redreactor]: https://github.com/mreditor97/addon-redreactor/tree/0.1.1
 [redreactor-issue]: https://github.com/mreditor97/addon-redreactor/issues
 [redreactor-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
 
