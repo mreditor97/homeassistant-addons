@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update home-assistant/cli to v4.27.0 @renovate (#10)
+- ⬆️ Update redreactor to v0.1.2 @renovate (#11)
