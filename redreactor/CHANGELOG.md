@@ -1,11 +1,11 @@
 ## What’s changed
-
-- Removal of arm architectures @mreditor97 (#38)
+Fix ruff FURB171 build errors in commander.py @mreditor97 (https://github.com/mreditor97/redreactor/pull/389)
+Fix class-level shared state and silent external_power transition @mreditor97 (https://github.com/mreditor97/redreactor/pull/390)
+Add comprehensive test suite with mocked I2C/MQTT (75% coverage) @mreditor97 (https://github.com/mreditor97/redreactor/pull/391)
+Replace noqa suppressions with proper fixes @mreditor97 (https://github.com/mreditor97/redreactor/pull/392)
+Fix commander tests to mock subprocess.run instead of os.system @mreditor97 (https://github.com/mreditor97/redreactor/pull/393)
+Add targeted code commentary for non-obvious behaviour @mreditor97 (https://github.com/mreditor97/redreactor/pull/395)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v3.12 @[renovate[bot]](https://github.com/apps/renovate) (#15)
-- ⬆️ Update ghcr.io/home-assistant/armv7-base-python Docker tag to v3.12 @[renovate[bot]](https://github.com/apps/renovate) (#16)
-- ⬆️ Update alpine_3_17/musl-dev to v1.2.3-r6 @[renovate[bot]](https://github.com/apps/renovate) (#26)
-- ⬆️ Update home-assistant/cli to v4.43.0 @[renovate[bot]](https://github.com/apps/renovate) (#34)
-- ⬆️ Update redreactor to v0.1.7 @[renovate[bot]](https://github.com/apps/renovate) (#41)
+- ⬆️ Update redreactor to v0.1.8 @[renovate[bot]](https://github.com/apps/renovate) (#46)
