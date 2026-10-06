@@ -14,4 +14,5 @@ on:
 jobs:
   workflows:
     name: CI
-    uses: hassio-addons/workflows/.github/workflows/repository-lint.yaml@main
+    # hassio-addons/workflows v4.0.0
+    uses: hassio-addons/workflows/.github/workflows/repository-lint.yaml@e0c532a7b0fb264b3ff0c718c2c0308a0c8c1390
