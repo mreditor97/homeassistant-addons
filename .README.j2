@@ -8,11 +8,8 @@ installed and configured from within the Home Assistant frontend.
 ### &#10003; [{{ app.name }}][app-{{ app.target }}]
 
 ![Latest Version][{{ app.target }}-version-shield]
-![Supports armhf Architecture][{{ app.target }}-armhf-shield]
-![Supports armv7 Architecture][{{ app.target }}-armv7-shield]
 ![Supports aarch64 Architecture][{{ app.target }}-aarch64-shield]
 ![Supports amd64 Architecture][{{ app.target }}-amd64-shield]
-![Supports i386 Architecture][{{ app.target }}-i386-shield]
 
 {{ app.description }}
 
@@ -46,7 +43,7 @@ For a general repository issue or app ideas [open an issue here][issue]
 [{{ app.target }}-issue]: {{ app.repo }}/issues
 [{{ app.target }}-version-shield]: https://img.shields.io/badge/version-{{ app.version }}-blue.svg
 
-{% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
+{% for arch in ['aarch64', 'amd64'] %}
 {% if arch in app.archs %}
 [{{ app.target }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-yes-green.svg
 {% else %}

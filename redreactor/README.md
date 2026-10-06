@@ -4,10 +4,7 @@ Automatically control your Red Reactor Battery Monitor from within Home Assistan
 
 [![Release][release-shield]][release]
 ![Supports aarch64 Architecture][aarch64-shield]
-![Supports armhf Architecture][armhf-shield]
-![Supports armv7 Architecture][armv7-shield]
 ![Supports amd64 Architecture][amd64-shield]
-![Supports i386 Architecture][i386-shield]
 
 ## About
 
@@ -16,12 +13,8 @@ Assistant. The data is published to your Home Assistant instance via MQTT.
 
 The [Red Reactor][redreactor] can be purchased to help protect your Raspberry Pi from power outages.
 
-
 [release-shield]: https://img.shields.io/badge/version-v0.1.6-blue.svg
 [release]: https://github.com/mreditor97/app-redreactor/tree/0.1.6
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
-[i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [redreactor]: https://www.theredreactor.com/

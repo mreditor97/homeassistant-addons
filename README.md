@@ -7,14 +7,10 @@ installed and configured from within the Home Assistant frontend.
 ### &#10003; [Red Reactor Battery Monitor][app-redreactor]
 
 ![Latest Version][redreactor-version-shield]
-![Supports armhf Architecture][redreactor-armhf-shield]
-![Supports armv7 Architecture][redreactor-armv7-shield]
 ![Supports aarch64 Architecture][redreactor-aarch64-shield]
 ![Supports amd64 Architecture][redreactor-amd64-shield]
-![Supports i386 Architecture][redreactor-i386-shield]
 
 Red Reactor Battery Monitoring service
-
 
 ## Releases
 
@@ -36,7 +32,6 @@ on the correct GitHub repository matching the app.
 
 For a general repository issue or app ideas [open an issue here][issue]
 
-
 [app-redreactor]: https://github.com/mreditor97/app-redreactor/tree/0.1.6
 [redreactor-issue]: https://github.com/mreditor97/app-redreactor/issues
 [redreactor-version-shield]: https://img.shields.io/badge/version-v0.1.6-blue.svg
@@ -44,13 +39,6 @@ For a general repository issue or app ideas [open an issue here][issue]
 [redreactor-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 
 [redreactor-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
-
-[redreactor-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-
-[redreactor-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-
-[redreactor-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-
 
 [issue]: https://github.com/mreditor97/homeassistant-apps/issues
 [semver]: http://semver.org/spec/v2.0.0.html
