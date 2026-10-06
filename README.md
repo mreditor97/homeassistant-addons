@@ -1,10 +1,10 @@
-# MrEditor97's Home Assistant Add-on's Repository
+# MrEditor97's Home Assistant Apps Repository
 
-Add-ons for Home Assistant. Allowing you to extend the functionality of your Home Assistant setup, these can be
+Apps for Home Assistant. Allowing you to extend the functionality of your Home Assistant setup, these can be
 installed and configured from within the Home Assistant frontend.
 
-## Available Add-ons
-### &#10003; [Red Reactor Battery Monitor][addon-redreactor]
+## Available Apps
+### &#10003; [Red Reactor Battery Monitor][app-redreactor]
 
 ![Latest Version][redreactor-version-shield]
 ![Supports armhf Architecture][redreactor-armhf-shield]
@@ -29,16 +29,16 @@ based on the following:
 ## Support
 
 You can open an issue here on GitHub. Note, we use a separate
-GitHub repository for each add-on. Please ensure you are creating the issue
-on the correct GitHub repository matching the add-on.
+GitHub repository for each app. Please ensure you are creating the issue
+on the correct GitHub repository matching the app.
 
-- [Open an issue for the add-on: Red Reactor Battery Monitor][redreactor-issue]
+- [Open an issue for the app: Red Reactor Battery Monitor][redreactor-issue]
 
-For a general repository issue or add-on ideas [open an issue here][issue]
+For a general repository issue or app ideas [open an issue here][issue]
 
 
-[addon-redreactor]: https://github.com/mreditor97/addon-redreactor/tree/0.1.6
-[redreactor-issue]: https://github.com/mreditor97/addon-redreactor/issues
+[app-redreactor]: https://github.com/mreditor97/app-redreactor/tree/0.1.6
+[redreactor-issue]: https://github.com/mreditor97/app-redreactor/issues
 [redreactor-version-shield]: https://img.shields.io/badge/version-v0.1.6-blue.svg
 
 [redreactor-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
@@ -52,5 +52,5 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [redreactor-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 
 
-[issue]: https://github.com/mreditor97/homeassistant-addons/issues
+[issue]: https://github.com/mreditor97/homeassistant-apps/issues
 [semver]: http://semver.org/spec/v2.0.0.html

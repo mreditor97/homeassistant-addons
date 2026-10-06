@@ -1,20 +1,20 @@
-# MrEditor97's Home Assistant Add-on's Repository
+# MrEditor97's Home Assistant Apps Repository
 
-Add-ons for Home Assistant. Allowing you to extend the functionality of your Home Assistant setup, these can be
+Apps for Home Assistant. Allowing you to extend the functionality of your Home Assistant setup, these can be
 installed and configured from within the Home Assistant frontend.
 
-## Available Add-ons
-{% for addon in addons %}
-### &#10003; [{{ addon.name }}][addon-{{ addon.target }}]
+## Available Apps
+{% for app in apps %}
+### &#10003; [{{ app.name }}][app-{{ app.target }}]
 
-![Latest Version][{{ addon.target }}-version-shield]
-![Supports armhf Architecture][{{ addon.target }}-armhf-shield]
-![Supports armv7 Architecture][{{ addon.target }}-armv7-shield]
-![Supports aarch64 Architecture][{{ addon.target }}-aarch64-shield]
-![Supports amd64 Architecture][{{ addon.target }}-amd64-shield]
-![Supports i386 Architecture][{{ addon.target }}-i386-shield]
+![Latest Version][{{ app.target }}-version-shield]
+![Supports armhf Architecture][{{ app.target }}-armhf-shield]
+![Supports armv7 Architecture][{{ app.target }}-armv7-shield]
+![Supports aarch64 Architecture][{{ app.target }}-aarch64-shield]
+![Supports amd64 Architecture][{{ app.target }}-amd64-shield]
+![Supports i386 Architecture][{{ app.target }}-i386-shield]
 
-{{ addon.description }}
+{{ app.description }}
 
 {% endfor %}
 
@@ -31,26 +31,26 @@ based on the following:
 ## Support
 
 You can open an issue here on GitHub. Note, we use a separate
-GitHub repository for each add-on. Please ensure you are creating the issue
-on the correct GitHub repository matching the add-on.
+GitHub repository for each app. Please ensure you are creating the issue
+on the correct GitHub repository matching the app.
 
-{% for addon in addons %}
-- [Open an issue for the add-on: {{ addon.name }}][{{ addon.target }}-issue]
+{% for app in apps %}
+- [Open an issue for the app: {{ app.name }}][{{ app.target }}-issue]
 {% endfor %}
 
-For a general repository issue or add-on ideas [open an issue here][issue]
+For a general repository issue or app ideas [open an issue here][issue]
 
-{% for addon in addons %}
+{% for app in apps %}
 
-[addon-{{ addon.target }}]: {{ addon.repo }}/tree/{{ addon.version | replace("v", "") }}
-[{{ addon.target }}-issue]: {{ addon.repo }}/issues
-[{{ addon.target }}-version-shield]: https://img.shields.io/badge/version-{{ addon.version }}-blue.svg
+[app-{{ app.target }}]: {{ app.repo }}/tree/{{ app.version | replace("v", "") }}
+[{{ app.target }}-issue]: {{ app.repo }}/issues
+[{{ app.target }}-version-shield]: https://img.shields.io/badge/version-{{ app.version }}-blue.svg
 
 {% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
-{% if arch in addon.archs %}
-[{{ addon.target }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-yes-green.svg
+{% if arch in app.archs %}
+[{{ app.target }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-yes-green.svg
 {% else %}
-[{{ addon.target }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-no-red.svg
+[{{ app.target }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-no-red.svg
 {% endif %}
 
 {% endfor %}

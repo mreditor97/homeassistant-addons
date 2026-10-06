@@ -1,26 +1,26 @@
-# Home Assistant Add-on: Red Reactor Battery Monitor
+# Home Assistant App: Red Reactor Battery Monitor
 
 ## Installation
 
-Follow these steps to get the add-on installed on your system:
+Follow these steps to get the app installed on your system:
 
-1. Navigate in your Home Assistant front-end to **Supervisor** -> **Add-on Store**.
-2. Find the "Red Reactor Battery Monitor" add-on and click it.
+1. Navigate in your Home Assistant front-end to **Settings** -> **Apps**.
+2. Find the "Red Reactor Battery Monitor" app and click it.
 3. Click on the "INSTALL" button.
 
 ## How to use
 
-The add-on has a couple of things that must be configured to get the add-on running as desired:
+The app has a couple of things that must be configured to get the app running as desired:
 
 1. Configure the MQTT settings.
-2. Update add-on settings to suit your needs.
-3. Start the add-on.
-4. Check the add-on log output to see the result.
+2. Update app settings to suit your needs.
+3. Start the app.
+4. Check the app log output to see the result.
 5. If MQTT Auto Discovery is enabled, the Red Reactor should appear within your Device list
 
 ## Configuration
 
-Add-on configuration:
+App configuration:
 
 ```yaml
 mqtt:
